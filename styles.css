@@ -1,0 +1,58 @@
+/* Reset default margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set gaya umum untuk body */
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f0f8ff; /* Warna pastel biru */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Gaya header */
+header {
+    background-color: #ffcccb; /* Warna pastel merah muda */
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    color: #4CAF50;
+}
+
+/* Gaya navigasi */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Gaya footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
